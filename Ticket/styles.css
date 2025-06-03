@@ -1,0 +1,121 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: url("./img/background-mobile.png") no-repeat center center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+  position: relative;
+}
+
+.container {
+  max-width: 400px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.logo img {
+  width: 30px;
+  height: 30px;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.highlight {
+  color: #ff6a5f;
+  font-weight: bold;
+}
+
+.confirmation-message {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+.confirmation-message .email {
+  color: #ff6a5f;
+}
+
+.ticket {
+  display: flex;
+  background-image: url("./img/pattern-ticket.svg");
+  overflow: hidden;
+  padding: 10px;
+  gap: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.ticket-left {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.ticket-logo {
+  width: 25px;
+  margin-bottom: 0.5rem;
+}
+
+.ticket-date {
+  font-size: 0.75rem;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.ticket-user {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.handle {
+  font-size: 0.75rem;
+  color: #ccc;
+}
+
+.ticket-right {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #aaa;
+  align-self: center;
+}
+
+.circle-decoration,
+.curve-decoration {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 0;
+  opacity: 0.2;
+  pointer-events: none;
+}
