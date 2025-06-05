@@ -54,7 +54,8 @@ h2 {
 }
 
 .ticket {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto;
   background-image: url("./img/pattern-ticket.svg");
   overflow: hidden;
   padding: 10px;
