@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: url('./img/background-mobile.png') no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 2rem 1rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.logo img {
+  width: 20px;
+  height: 20px;
+}
+
+.logo h1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.text2 {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  color: #ccc;
+  text-align: center;
+}
+
+.upload-section {
+  margin-bottom: 1.5rem;
+}
+
+.upload-section label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.upload-section-note {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.upload-box {
+  border: 2px dashed #aaa;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.upload-box input {
+  display: none;
+}
+
+.upload-icon {
+  width: 40px;
+  margin-bottom: 0.5rem;
+}
+
+.upload-icon-info {
+  width: 16px;
+  height: 16px;
+}
+
+.upload-text {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.note {
+  font-size: 0.75rem;
+  color: #aaa;
+}
+
+form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  border-radius: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+form input::placeholder {
+  color: #bbb;
+}
+
+form button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #ff6a5f;
+  border: none;
+  border-radius: 0.5rem;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #ff4c40;
+}
+
+p {
+  font-size: 0.8rem;
+  margin-bottom: 7px;
+}

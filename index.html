@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      
+      <div class="logo">
+        <img src="./img/logo-mark.svg" />
+        <h1>Coding Conf</h1>
+      </div>
+      <h2>Your Journey to Coding Conf 2025 Starts Here!</h2>
+      <p class="text2">
+        Secure your spot at next year's biggest coding conference.
+      </p>
+      <div class="upload-section">
+        <p>Upload Avatar</p>
+        <label for="avatar-upload">
+        <div class="upload-box">
+          <input
+            type="file"
+            id="avatar-upload"
+            name="avatar"
+            accept="image/jpeg, image/png"
+            required
+          />
+          <img
+            src="./img/icon-upload.svg"
+            alt="Upload Icon"
+            class="upload-icon"
+          />
+          <p class="upload-text">Drag and drop or click to upload</p>
+          </label>
+        </div>
+        <div class="upload-section-note">
+          <img
+            src="./img/icon-info.svg"
+            alt="Icon Info"
+            class="upload-icon-info"
+          />
+          <p class="note">Upload your photo (JPG or PNG, max size: 500KB).</p>
+        </div>
+      </div>
+      <form>
+        <p>Full Name</p>
+        <input type="text" required />
+        <p>Email Address</p>
+        <input type="email" placeholder="example@email.com" required />
+        <p>GitHub Username</p>
+        <input type="text" placeholder="@yourusername" required />
+        <button type="submit"><strong>Generate my ticket</strong></button>
+      </form>
+    </div>
+  </body>
+</html>
