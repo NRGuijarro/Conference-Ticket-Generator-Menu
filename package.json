@@ -1,0 +1,9 @@
+{
+  "homepage": "https://nrguijarro.github.io/Conference-Ticket-Generator-Menu/",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
